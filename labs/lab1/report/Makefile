@@ -4,8 +4,8 @@ FILES += $(patsubst %.md, %.pdf, $(wildcard *.md))
 FILTERS =
 OPTIONS =
 PDF_ENGINE =
-PDF_OPTIONS =
-FORMAT_OPTIONS =
+PDF_OPTIONS = -V mainfont='Times New Roman' -V sansfont='DejaVu Sans' -V monofont='DejaVu Sans Mono'
+FORMAT_OPTIONS = -t beamer --slide-level=2
 
 ### Cross references
 ## Use pandoc-xnos (https://github.com/tomduck/pandoc-xnos)
