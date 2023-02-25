@@ -1,7 +1,7 @@
 ---
 ## Front matter
-title: "Лабораторная работа 1"
-subtitle: "Простейший вариант"
+title: "Отчет по лабораторной работе №1"
+subtitle: "по дисциплине: Математическое моделирование"
 author: "Логинов Егор Игоревич"
 
 ## Generic otions
@@ -33,10 +33,10 @@ polyglossia-otherlangs:
 babel-lang: russian
 babel-otherlangs: english
 ## Fonts
-mainfont: DejaVu Serif
-romanfont: DejaVu Serif
-sansfont: DejaVu Sans
-monofont: DejaVu Sans Mono
+mainfont: PT Serif
+romanfont: PT Serif
+sansfont: PT Sans
+monofont: PT Mono
 mainfontoptions: Ligatures=TeX
 romanfontoptions: Ligatures=TeX
 sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
